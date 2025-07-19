@@ -35,5 +35,4 @@ public class DishStackTest {
         stack.push(new Dish("Dish 2"));
         assertEquals(2, stack.size());
     }
-
 }

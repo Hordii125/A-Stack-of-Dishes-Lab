@@ -38,5 +38,13 @@ public class App {
 
         int finalStackSize = stack.size();
         System.out.println("Final stack size: " + finalStackSize);
+
+        stack.push(blueDish);
+        stack.push(blueDish);
+        stack.push(blueDish);
+        stack.push(blueDish); // will display error message
+        stack.push(blueDish); // will display error message
+
+
     }
 }
